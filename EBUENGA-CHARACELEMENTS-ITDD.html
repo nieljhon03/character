@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements Demonstration</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6; /* Improved readability */
+        }
+
+        header {
+            background: #3498db; /* Blue header */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        
+        .container {
+            max-width: 900px; /* Wider container */
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #2ecc71; /* Green heading */
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 15px; /* More space below h2 */
+        }
+        
+        h3, h4, h5, h6 {
+            color: #555; /* Darker sub-headings */
+            margin-top: 10px; /* Consistent margin for subheadings */
+        }
+
+        p {
+            margin-bottom: 15px; /* Consistent paragraph spacing */
+        }
+
+        code, tt {
+            font-family: monospace;
+            background-color: #f0f0f0; /* Lighter background for code */
+            padding: 3px 6px;
+            border-radius: 4px;
+            border: 1px solid #ddd; /* Subtle border for code */
+        }
+
+        .highlight {
+            color: #fff;
+            background-color: #e74c3c; /* Red highlight */
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+
+        hr {
+            border: 1px solid #ddd;
+            margin: 20px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+            background-color: #3498db; /* Blue footer */
+            color: white;
+            margin-top: 20px; /* Space above footer */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My HTML Elements Demo</h1>
+        <p>Learn how to use various HTML elements with this interactive guide.</p>
+    </header>
+
+    <div class="container">
+        <h2>Headings</h2>
+        <p>These heading tags define headings of different levels, with <code>&lt;h1&gt;</code> being the highest (most important) and <code>&lt;h6&gt;</code> being the lowest.</p>
+        <h1>This is Heading 1</h1>
+        <h2>This is Heading 2</h2>
+        <h3>This is Heading 3</h3>
+        <h4>This is Heading 4</h4>
+        <h5>This is Heading 5</h5>
+        <h6>This is Heading 6</h6>
+
+        <hr>
+
+        <h2>Text Formatting</h2>
+        <p>The <code>&lt;p&gt;</code> tag defines a paragraph, while the <code>&lt;br&gt;</code> tag inserts a line break.</p>
+
+        <p>This is a paragraph with some <i>italicized</i> text. Here's another example of <i>italicized</i> text. And a third. Fourth. Fifth. Sixth.</p>
+
+        <p>This is <strong>boldface</strong> text. More <strong>bold</strong> text here.</p>
+
+        <p>This is some text with a superscript: X<sup>2</sup>. And a subscript: H<sub>2</sub>O.</p>
+
+        <p>This is <code>monospaced</code> text. Another example is <code>code</code>. And a third example: <tt>teletype</tt>.</p>
+
+        <p>This is text with a <strike>strikethrough</strike>. And another <del>strikethrough</del> example.</p>
+
+        <p>This is <u>underlined</u> text. Another <u>underlined</u> example.</p>
+
+        <p>This is a paragraph with a line break.<br>This text is on a new line because of the <code>&lt;br&gt;</code> tag.</p>
+
+        <p class="highlight">This is an example of a custom style applied to a paragraph.</p>
+
+        <hr>
+
+        <h2>Divisions and Paragraphs</h2>
+        <p>The <code>&lt;div&gt;</code> tag is a block-level container used to group content and apply styles or layouts.</p>
+
+        <div>
+            <p>This is the first paragraph within a div.</p>
+            <p>This is the second paragraph within the same div.</p>
+
+            <div>
+                <p>This paragraph is inside a nested div.</p>
+            </div>
+
+            <p>This paragraph is outside the nested div, but still within the main div.</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2023 HTML Elements Demo
+    </footer>
+
+</body>
+</html>
